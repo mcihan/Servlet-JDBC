@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Uye Kayıt</title>
+
+<style type="text/css">
+	input[type=submit] 
+	{
+		padding: 5px 15px;
+		background: #4285f4;
+		border: 0 none;
+		cursor: pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		color: white
+    }
+</style>
+</head>
+<body>
+
+	<form action="ServletJDBC" method="get">
+		<table>
+			<tr>
+				<td>Adi</td>
+				<td><input type="text" name="adi" /></td>
+			</tr>
+			<tr>
+				<td>Soyadi</td>
+				<td><input type="text" name="soyadi" /></td>
+			</tr>
+			<tr>
+				<td>Mesleği</td>
+				<td><input type="text" name="meslegi" /></td>
+			</tr>
+			<tr>
+				<td>Doğum Yılı</td>
+				<td><input type="text" name="dy" /></td>
+			</tr>
+		</table>
+		<br /> <input type="submit" name="action" value='Kaydet' /> <input
+			type="submit" name="action" value="Goster" />
+	</form>
+
+</body>
+</html>
